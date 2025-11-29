@@ -37,7 +37,6 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "About", id: "about" },
-    { name: "Skills", id: "skills" },
     { name: "Projects", id: "projects" },
     { name: "Contact", id: "contact" },
   ];
@@ -82,24 +81,35 @@ export default function Navbar() {
             ))}
           </ul>
           <div className="hidden md:flex items-center gap-6 text-white text-xl">
-  <a href="https://github.com/" target="_blank">
-    <FaGithub className="hover:text-primary transition" />
-  </a>
-  <a href="https://linkedin.com" target="_blank">
-    <FaLinkedin className="hover:text-primary transition" />
-  </a>
-  <a href="mailto:your-email@example.com">
-    <FaEnvelope className="hover:text-primary transition" />
-  </a>
+            <a 
+              href="https://github.com/matheeshagit" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="hover:text-primary transition" />
+            </a>
 
-  <a
-    href="/Matheesha-CV.pdf"
-    download
-    className="bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-primary/80 transition"
-  >
-    Download CV
-  </a>
-</div>
+            <a 
+              href="https://linkedin.com/in/matheesha-shehan-24502623a" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="hover:text-primary transition" />
+            </a>
+
+            <a href="mailto:12matheesha@gmail.com">
+              <FaEnvelope className="hover:text-primary transition" />
+            </a>
+
+            <a
+              href="/Matheesha-CV.pdf"
+              download
+              className="bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-primary/80 transition"
+            >
+              Download CV
+            </a>
+          </div>
+
 
 
           {/* Mobile Hamburger */}
@@ -170,16 +180,27 @@ export default function Navbar() {
                 </a>
 
                 <div className="flex gap-5 text-white/80 text-2xl">
-                  <a href="https://github.com/" target="_blank">
+                  <a 
+                    href="https://github.com/matheeshagit" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
                     <FaGithub className="hover:text-white transition" />
                   </a>
-                  <a href="https://linkedin.com" target="_blank">
+
+                  <a 
+                    href="https://linkedin.com/in/matheesha-shehan-24502623a" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaLinkedin className="hover:text-white transition" />
                   </a>
-                  <a href="mailto:your-email@example.com">
+
+                  <a href="mailto:12matheesha@gmail.com">
                     <FaEnvelope className="hover:text-white transition" />
                   </a>
                 </div>
+
               </div>
             </motion.div>
           </>

@@ -5,7 +5,7 @@ import {
   FaLinkedin,
   FaEnvelope,
   FaFileDownload,
-} from "react-icons/fa";
+} from "react-icons/fa"; 
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -102,7 +102,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="/Matheesha-CV.pdf"
+              href="/Matheesha2025.pdf"
               download
               className="bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-primary/80 transition"
             >
@@ -171,7 +171,7 @@ export default function Navbar() {
               {/* Socials + CV */}
               <div className="mt-10 flex flex-col gap-5">
                 <a
-                  href="/Matheesha-CV.pdf"
+                  href="/Matheesha2025.pdf"
                   download
                   className="flex items-center gap-3 text-white bg-primary/20 hover:bg-primary/30 p-3 rounded-lg transition"
                 >

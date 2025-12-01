@@ -86,9 +86,11 @@ export default function Hero() {
           >
             View My Work
           </button>
+          <a href="/Matheesha2025.pdf" download>
           <button className="border-2 border-white/30 text-white px-10 py-5 rounded-full font-semibold text-lg hover:bg-white/10 backdrop-blur-sm transition-all duration-300 min-w-[180px]">
             Download CV
           </button>
+          </a>
         </motion.div>
       </div>
 

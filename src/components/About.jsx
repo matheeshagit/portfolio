@@ -17,7 +17,7 @@ export default function About() {
   return (
      <section
   id="about"
-  className="w-full py-28 bg-gradient-to-b from-slate-900 to-slate-800 text-slate-100"
+  className="w-full py-28 bg-linear-to-b from-slate-900 to-slate-800 text-slate-100"
 >
   <motion.div
     className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16"

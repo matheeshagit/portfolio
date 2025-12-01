@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
+import project1 from "../assets/project1.png"
 
 const projects = [
   {
-    title: "Recipe Beats",
-    description: "A modern mobile app for sharing, saving, and exploring recipes with a sleek UI.",
-    tech: ["React Native", "Firebase", "Node.js"],
-    image: "https://via.placeholder.com/600x400", 
+    title: "Tea Factory Management System",
+    description: "A web application for managing tea orders, internal operations, and workflow automation within a tea factory.",
+    tech: ["React", "Spring Boot", "MongoDB"],
+    image: project1 
   },
   {
     title: "Inventory Dashboard",

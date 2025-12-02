@@ -3,7 +3,7 @@ import { ChevronDownIcon } from '@heroicons/react/24/outline';
 
 export default function Hero() {
   const scrollToAbout = () => {
-    document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
   };
 
   return (

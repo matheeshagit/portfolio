@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
 import { FaGithub } from "react-icons/fa";
 
 const projects = [
@@ -12,12 +13,12 @@ const projects = [
     github: "https://github.com/Keshan-Udayanga/CamiLeaf-WebSystem",
   },
   {
-    title: "Inventory Dashboard",
+    title: "Sales Performance & Profitability Dashboard",
     description:
-      "A full analytical dashboard with data cleaning, visualizations, and SQL backend.",
-    tech: ["Python", "Power BI", "SQL Server"],
-    image: "https://via.placeholder.com/600x400",
-    github: "https://github.com/yourusername/inventory-dashboard",
+      "The project demonstrates data cleaning, feature engineering, advanced DAX calculations, and interactive visualizations.",
+    tech: ["Excel", "Power BI", "Power Query"],
+    image: project2,
+    github: "https://github.com/matheeshagit/Sales-Dashboard-PowerBI",
   },
   {
     title: "Portfolio Website",

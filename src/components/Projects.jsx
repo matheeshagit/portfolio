@@ -21,12 +21,12 @@ const projects = [
     github: "https://github.com/matheeshagit/Sales-Dashboard-PowerBI",
   },
   {
-    title: "Portfolio Website",
+    title: "Coffee Shop Sales Dashboard",
     description:
-      "A fully animated personal portfolio built with React, Vite, Tailwind & Framer Motion.",
-    tech: ["React", "Tailwind", "Framer Motion"],
+      "An interactive Tableau dashboard analyzing coffee shop sales trends, peak hours, product performance, and customer insights..",
+    tech: ["Tableau", "Excel", "Data Visualization"],
     image: "https://via.placeholder.com/600x400",
-    github: "https://github.com/yourusername/portfolio-website",
+    github: "https://github.com/matheeshagit/Coffee-Shop-Sales-Tableau",
   },
 ];
 

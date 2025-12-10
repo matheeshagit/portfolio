@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
+import project3 from "../assets/Sales.PNG";
 import { FaGithub } from "react-icons/fa";
 
 const projects = [
@@ -25,7 +26,7 @@ const projects = [
     description:
       "A fully animated personal portfolio built with React, Vite, Tailwind & Framer Motion.",
     tech: ["React", "Tailwind", "Framer Motion"],
-    image: "https://via.placeholder.com/600x400",
+    image: project3,
     github: "https://github.com/yourusername/portfolio-website",
   },
 ];

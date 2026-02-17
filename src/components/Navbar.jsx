@@ -171,7 +171,7 @@ export default function Navbar() {
               {/* Socials + CV */}
               <div className="mt-10 flex flex-col gap-5">
                 <a
-                  href="/Matheesha2025.pdf"
+                  href="/Matheesha_Shehan_CV.pdf"
                   download
                   className="flex items-center gap-3 text-white bg-primary/20 hover:bg-primary/30 p-3 rounded-lg transition"
                 >

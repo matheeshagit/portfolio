@@ -32,7 +32,7 @@ export default function About() {
           variants={fadeUp}
         >
           <motion.div
-            className="w-64 h-64 rounded-3xl overflow-hidden shadow-xl border border-white/10"
+            className="w-74 h-84 rounded-3xl overflow-hidden shadow-xl border border-white/10"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 120 }}
           >

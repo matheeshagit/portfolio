@@ -41,7 +41,7 @@ export default function Hero() {
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8, type: "spring" }}
-          className="w-32 h-32 bg-gradient-to-r from-primary to-secondary rounded-full mx-auto mb-8 flex items-center justify-center border-4 border-white/20"
+          className="w-32 h-32 bg-gradient-to-r from-primary to-secondary rounded-full mx-auto mb-8 mt-8 flex items-center justify-center border-4 border-white/20"
         >
           <span className="text-4xl text-white font-bold">M</span>
         </motion.div>

@@ -24,7 +24,7 @@ const projects = [
   title: "Statistical Analysis – Team Cohesion Study",
   description:
     "Analyzed survey data to evaluate the relationship between team cohesion and performance using statistical modeling and regression techniques.",
-  tech: ["R", "Data Cleansing", "Descriptive Statistics", "Inferrential Statistics", "Predictive Modeling"],
+  tech: ["R", "Data Cleansing", "Statistics", "Predictive Modeling"],
   image: project5,
   github: "YOUR_LINK",
   },

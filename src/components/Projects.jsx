@@ -2,9 +2,32 @@ import { motion } from "framer-motion";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/Sales.PNG";
+import project4 from "../assets/NWT_Load_Dw.png";
+import project5 from "../assets/Evaluation with performance.png";
 import { FaGithub } from "react-icons/fa";
 
 const projects = [
+  {
+  title: "Data Warehouse & ETL Pipeline – Northwind Traders",
+  description:
+    "Designed and implemented a full ETL pipeline and data warehouse using SQL Server, enabling structured analytics from raw operational data.",
+  tech: ["SQL Server", "SSIS", "SSDT", "ETL"],
+  image: project4, 
+  github: "YOUR_LINK",
+  highlight: [
+  "Implemented Slowly Changing Dimensions (SCD)",
+  "Built staging + warehouse layers",
+  "Designed star schema for analytics"
+  ],
+  },
+  {
+  title: "Statistical Analysis – Team Cohesion Study",
+  description:
+    "Analyzed survey data to evaluate the relationship between team cohesion and performance using statistical modeling and regression techniques.",
+  tech: ["R", "Statistics", "Data Analysis"],
+  image: project5,
+  github: "YOUR_LINK",
+  },
   {
     title: "Tea Factory Management System",
     description:
@@ -82,6 +105,7 @@ export default function Projects() {
                   className="w-full h-full object-cover"
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.4 }}
+                  loading="lazy"
                 />
               </div>
 
@@ -90,7 +114,11 @@ export default function Projects() {
                 <div>
                   <h3 className="text-2xl font-bold mb-3 text-white">{project.title}</h3>
                   <p className="text-slate-300 mb-4 leading-relaxed">{project.description}</p>
-
+                  <ul className="text-sm text-slate-400 mb-4 list-disc list-inside">
+                    {project.highlight?.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
                   {/* Tech Tags */}
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((t, i) => (

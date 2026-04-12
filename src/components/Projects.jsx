@@ -13,7 +13,7 @@ const projects = [
     "Designed and implemented a full ETL pipeline and data warehouse using SQL Server, enabling structured analytics from raw operational data.",
   tech: ["SQL Server", "SSIS", "SSDT", "ETL"],
   image: project4, 
-  github: "YOUR_LINK",
+  github: "https://github.com/matheeshagit/data-warehouse-northwind-traders",
   highlight: [
   "Implemented Slowly Changing Dimensions (SCD)",
   "Built staging + warehouse layers",
@@ -24,14 +24,13 @@ const projects = [
   title: "Statistical Analysis – Team Cohesion Study",
   description:
     "Analyzed survey data to evaluate the relationship between team cohesion and performance using statistical modeling and regression techniques.",
-  tech: ["R", "Statistics", "Data Analysis"],
+  tech: ["R", "Data Cleansing", "Descriptive Statistics", "Inferrential Statistics", "Predictive Modeling"],
   image: project5,
   github: "YOUR_LINK",
   },
   {
     title: "Tea Factory Management System",
-    description:
-      "A web application for managing tea orders, internal operations, and workflow automation within a tea factory.",
+    description: "Designed and developed a full-stack system to automate tea factory operations, reducing manual order tracking and improving workflow efficiency.",
     tech: ["React", "Spring Boot", "MongoDB"],
     image: project1,
     github: "https://github.com/Keshan-Udayanga/CamiLeaf-WebSystem",

@@ -102,7 +102,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="/Matheesha2025.pdf"
+              href="/Matheesha_Shehan_CV.pdf"
               download
               className="bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-primary/80 transition"
             >
